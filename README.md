@@ -12,3 +12,5 @@ Functions
  - sample_php_lambda_proxy - example in PHP but also includes codes for Lambda Proxy integration and working with Mongodb 
  - sample_ruby
 
+Credits / References (apologies for others I failed to note)
+ - https://aws.amazon.com/blogs/compute/scripting-languages-for-aws-lambda-running-php-ruby-and-go/
