@@ -1,7 +1,7 @@
 # apex_php_ruby
 
 
-Examples of working with PHP and Ruby in Apex (Apex.run). Created for those who are considering using PHP or Ruby in AWS Lambda. Also includes examples in Go / Golang for comparison. 
+Examples of working with PHP and Ruby in Apex (http://apex.run). Created for those who are considering using PHP or Ruby in AWS Lambda. Also includes examples in Go / Golang for comparison. 
 
 Spoiler: PHP and Ruby has very high execution duration compared to Golang. 
 
