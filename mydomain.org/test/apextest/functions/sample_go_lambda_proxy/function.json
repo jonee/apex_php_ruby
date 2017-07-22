@@ -1,0 +1,12 @@
+{
+  "name": "sample_go_lambda_proxy",
+  "description": "",
+  "memory": 512,
+  "timeout": 5,
+  "runtime": "golang",
+  "role": "arn:aws:iam::123456789012:role/apextest_lambda_function",
+  "vpc": {
+    "securityGroups": ["sg-12345678"],
+    "subnets": ["subnet-12345678"]
+  }  
+}

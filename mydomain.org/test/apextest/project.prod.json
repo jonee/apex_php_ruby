@@ -1,0 +1,15 @@
+{
+  "name": "apextest",
+  "description": "apex test description",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "nodejs6.10",
+  "role": "arn:aws:iam::123456789012:role/apextest_lambda_function",
+  "environment": {
+    "ENVIRONMENT": "prod"
+  },
+  "vpc": {
+    "securityGroups": ["sg-12345678"],
+    "subnets": ["subnet-12345678"]
+  }  
+}

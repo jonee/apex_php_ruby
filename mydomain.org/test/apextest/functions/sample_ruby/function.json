@@ -1,0 +1,10 @@
+{
+  "name": "sample_ruby",
+  "description": "",
+  "handler": "ruby.handler",
+  "memory": 512,
+  "timeout": 5,
+  "runtime": "nodejs6.10",
+  "role": "arn:aws:iam::123456789012:role/apextest_lambda_function",
+  "vpc": {}
+}

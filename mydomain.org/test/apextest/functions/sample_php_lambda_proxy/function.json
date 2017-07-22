@@ -1,0 +1,13 @@
+{
+  "name": "sample_php_lambda_proxy",
+  "description": "",
+  "handler": "php.handler",
+  "memory": 512,
+  "timeout": 5,
+  "runtime": "nodejs6.10",
+  "role": "arn:aws:iam::123456789012:role/apextest_lambda_function",
+  "vpc": {
+    "securityGroups": ["sg-57b81a30"],
+    "subnets": ["subnet-cd0eaca8"]
+  }  
+}
